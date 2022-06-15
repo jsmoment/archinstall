@@ -1,0 +1,52 @@
+{
+    "additional-repositories": [
+        "multilib"
+    ],
+    "bootloader": "grub-install",
+    "config_version": "2.5.0",
+    "debug": false,
+    "harddrives": [
+        "/dev/nvme0n1"
+    ],
+    "hostname": "arch",
+    "kernels": [
+        "linux",
+        "linux-zen"
+    ],
+    "keyboard-layout": "pl",
+    "mirror-region": {
+        "Poland": {
+            "http://arch.midov.pl/arch/$repo/os/$arch": true,
+            "http://ftp.icm.edu.pl/pub/Linux/dist/archlinux/$repo/os/$arch": true,
+            "http://ftp.psnc.pl/linux/archlinux/$repo/os/$arch": true,
+            "http://mirror.juniorjpdj.pl/archlinux/$repo/os/$arch": true,
+            "http://mirror.onet.pl/pub/mirrors/archlinux/$repo/os/$arch": true,
+            "http://mirror.sfinae.tech/pub/mirrors/archlinux/$repo/os/$arch": true,
+            "http://repo.skni.umcs.pl/archlinux/$repo/os/$arch": true,
+            "https://arch.midov.pl/arch/$repo/os/$arch": true,
+            "https://ftp.icm.edu.pl/pub/Linux/dist/archlinux/$repo/os/$arch": true,
+            "https://ftp.psnc.pl/linux/archlinux/$repo/os/$arch": true,
+            "https://mirror.eloteam.tk/archlinux/$repo/os/$arch": true,
+            "https://mirror.juniorjpdj.pl/archlinux/$repo/os/$arch": true,
+            "https://mirror.sfinae.tech/pub/mirrors/archlinux/$repo/os/$arch": true,
+            "https://repo.skni.umcs.pl/archlinux/$repo/os/$arch": true
+        }
+    },
+    "mount_point": null,
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "nm"
+    },
+    "plugin": null,
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "timezone": "Europe/Warsaw",
+    "version": "2.5.0"
+}
